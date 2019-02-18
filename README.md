@@ -39,10 +39,10 @@ L’option -DINSTALL_UDEV_RULES=ON   permet de lancer rtl-sdr sans être root
 
 Ajoutez les lignes suivantes
 
-[inet_http_server]
-port = 9400
-username = user ; Auth username
-password = pass ; Auth password
+[inet_http_server]  
+port = 9400  
+username = user ; Auth username  
+password = pass ; Auth password  
     
     $ sudo /etc/init.d/supervisor restart
     
