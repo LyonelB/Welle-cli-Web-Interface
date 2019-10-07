@@ -3,7 +3,7 @@ Welle cli Web Interface
 
 ## Installation de rtl-sdr
 
-    $ sudo apt-get install cmake libusb-1.0-0.dev build-essential
+    $ sudo apt install cmake libusb-1.0-0.dev build-essential git
     $ git clone git://git.osmocom.org/rtl-sdr.git
     $ cd rtl-sdr/
     $ mkdir build
